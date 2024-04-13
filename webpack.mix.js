@@ -2,7 +2,6 @@ let mix = require('laravel-mix');
 let path = require('path');
 
 mix.setResourceRoot('../');
-mix.setPublicPath(path.resolve('./'));
 
 mix.webpackConfig({
     watchOptions: { ignored: [
