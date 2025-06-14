@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-wordpress-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./css/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./css/tailwind.css --minify"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.3"
+  }
+}
